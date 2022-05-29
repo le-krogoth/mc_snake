@@ -44,7 +44,15 @@ void setup()
     u8g2.setFont(u8g2_font_logisoso32_tf);
     u8g2.setFontMode(0);    // enable transparent mode, which is faster
 
-    Serial.println("+ Initialisation done");
+    Serial.println("+ Done");
+
+    // activate buttons
+    /*
+    Serial.println("+ Activating buttons");
+    pinMode(13, INPUT_PULLUP);
+    pinMode(12, INPUT_PULLUP);
+    Serial.println("+ Done");
+    */
 
     Serial.println("+ Init game");
 
