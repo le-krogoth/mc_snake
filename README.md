@@ -58,5 +58,7 @@ To start the serial monitor
 > pio device monitor
 
 ## What to look into after things compile and run
-- 
-- 
+- The code is deliberately defective. You can only move once in every direction. Check the setup code. Find out what the commented out code does and why it works once and why the fix fixes things.
+- Try to use buttons as mentioned in the Arduino examples vs. reading from the register directly.
+- Switch speed, collectable points
+- Introduce persistent high scores
